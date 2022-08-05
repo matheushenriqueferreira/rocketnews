@@ -101,4 +101,14 @@ main {
   height: 24px;
 }
 
+main section:last-child {
+  margin-top: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: .5em;
+  color: var(--bg-button-color);
+}
+
 
