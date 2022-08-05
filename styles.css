@@ -23,3 +23,12 @@ body {
   background-position-x: right;
   background-size: 50% 100%;
 }
+
+main {
+  padding: 50px 30px;
+}
+
+.logo {
+  width: 389px;
+  height: 94px;
+}
