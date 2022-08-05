@@ -10,7 +10,7 @@
   <body>
     <main>
       <section>
-        <img class="logo" src="./assets/logo.svg" />
+        <img class="logo" src="./assets/logo.svg" alt="Logo RocketNews"/>
       </section>
       <section class="description">
         <p class="title">atualize ideias e informações em 5 minutos.</p>
@@ -20,8 +20,16 @@
           <p class="fontSpartan">perfeito para se preparar para codar ☕</p>
         </div>
       </section>
-      <section>
-
+      <section class="formSection">
+        <form action="./index.html" method="post">
+          <label id="labelEmail">Insira seu e-mail:</label>
+          <div>
+            <input type="email" id="email" placeholder="oi@rocketseat.com" required autocomplete="off"/>
+            <button type="submit" id="send">
+              <img src="./assets/send.svg" />
+            </button>
+          </div>
+        </form>
       </section>
       <section>
 
