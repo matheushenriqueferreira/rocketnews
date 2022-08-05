@@ -56,4 +56,49 @@ main {
   font-weight: 700;
 }
 
+.formSection {
+  margin-top: 40px;
+}
+
+.formSection > form > div {
+  margin-top: 20px;
+  width: 798px;
+  height: 48px;
+  display: flex;
+  box-shadow: 2px 2px 20px var(--body-bg-color);
+}
+
+#labelEmail {
+  font-weight: 700;
+  color: var(--form-color);
+}
+
+#email {
+  height: 100%;
+  flex: 1;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: var(--title-color) 5px solid;
+  outline: 0;
+  padding-left: 10px;
+  color: var(--form-color);
+}
+
+#send {
+  width: 48px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-button-color);
+  border: 0;
+  cursor: pointer;
+}
+
+#send > img {
+  width: 24px;
+  height: 24px;
+}
+
 
