@@ -13,3 +13,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-color: var(--body-bg-color);
+  background-image: url("./assets/read_news.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: right;
+  background-size: 50% 100%;
+}
