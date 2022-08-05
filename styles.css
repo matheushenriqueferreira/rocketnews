@@ -32,3 +32,28 @@ main {
   width: 389px;
   height: 94px;
 }
+
+.title{
+  font-size: 24px;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--title-color);
+}
+
+.description {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.fontSpartan{
+  font-size: 14px;
+  font-family: 'League Spartan', sans-serif;
+  color: var(--text-color);
+}
+
+.description > p:nth-child(2) {
+  font-weight: 700;
+}
+
+
